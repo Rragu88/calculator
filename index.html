@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <section>
+            <div class="calc-container">
+                <div class="screen-last" id="lastOperationScreen"></div>
+                <div class="screen-current" id="currentOperationScreen">0</div>
+                <div class="btn-container">
+                    <button class="btn action clear">C</button>
+                    <button class="btn action sign">+/-</button>
+                    <button class="btn action percent">%</button>
+                    <button class="btn operator divide" data-operator>÷</button>
+                    <button class="btn number seven">7</button>
+                    <button class="btn number eight">8</button>
+                    <button class="btn number nine">9</button>
+                    <button class="btn operator multiply" data-operator>x</button>
+                    <button class="btn number four">4</button>
+                    <button class="btn number five">5</button>
+                    <button class="btn number six">6</button>
+                    <button class="btn operator minus" data-operator>-</button>
+                    <button class="btn number one">1</button>
+                    <button class="btn number two">2</button>
+                    <button class="btn number three">3</button>
+                    <button class="btn operator plus" data-operator>+</button>
+                </div>
+                <div class="last-btn-container">
+                    <button class="btn number zero">0</button>
+                    <button class="btn decimal" id="pointBtn">.</button>
+                    <button class="btn operator equals">=</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="./app.js"></script>
+</body>
+</html>

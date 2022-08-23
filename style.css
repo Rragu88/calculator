@@ -1,0 +1,99 @@
+body {
+    background-color: gainsboro;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc-container {
+    height: 425px;
+    width: 300px;
+    background-color: #151922;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    margin-top: 200px;
+}
+
+.screen-last {
+    display: flex;
+    color: white;
+    font-size: 25px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 10%;
+    padding-right: 25px;
+}
+
+.screen-current {
+    display: flex;
+    color: white;
+    font-size: 50px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 10%;
+    padding-right: 25px;
+    padding-top: 20px;
+}
+
+.btn-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.btn {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px 0 0 10px;
+    font-size: 25px;
+}
+
+.btn.action {
+    background-color: #949494;
+    border: 0;
+}
+
+.btn.number {
+    background-color: #383838;
+    border: 0;
+    color: white;
+}
+
+#pointBtn {
+    background-color: #383838;
+    border: 0;
+    color: white;
+}
+
+.btn-on {
+    opacity: 0.5;
+}
+
+.btn.operator {
+    background-color: #fc9917;
+}
+
+.last-btn-container {
+    display: flex;
+    gap: 15px;
+}
+
+.last-btn {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px 0 0 10px;
+    font-size: 25px;
+}
+
+.btn.number.zero {
+    width: 125px;
+    border-radius: 30px;
+    text-align: left;
+    padding-left: 18px
+}
